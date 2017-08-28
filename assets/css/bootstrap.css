@@ -4047,7 +4047,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #787878;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -4368,8 +4368,9 @@ a.list-group-item.active > .badge,
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: rgba(0, 0, 0, 0.35);
 }
+
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
@@ -4380,7 +4381,7 @@ a.list-group-item.active > .badge,
   font-weight: 200;
 }
 .container .jumbotron {
-  border-radius: 6px;
+  border-radius: 15px;
 }
 .jumbotron .container {
   max-width: 100%;
