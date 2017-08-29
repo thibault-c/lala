@@ -28,35 +28,7 @@
 
     <!-- MAP SCRIPT - ALL CONFIGURATION IS PLACED HERE - VIEW OUR DOCUMENTATION FOR FURTHER INFORMATION -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
-    <script type="text/javascript">
-        // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-    
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 11,
-                
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.6700, -73.9400), // New York
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [	{		featureType:'water',		stylers:[{color:'#74c9be'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#f2f2f2'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#444444'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('map');
-
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-    </script>
+    <script type="text/javascript">    </script>
     
     
     <!-- Main Jquery & Hover Effects. Should load first -->
@@ -111,8 +83,8 @@
     	<div class="container" id="home">
 			<div class="row centered">
 				<div class="col-lg-8 col-lg-offset-2 mt">
-				<div class="jumbotron animation slideUp">
-					<h1 class="animation slideUp">We are a Machine Learning agency. We focus on User Experience, Consulting, and Technology.</h1>
+				<div class="jumbotron">
+					<h1 class="animation b-delay03">We are a Machine Learning agency. We focus on User Experience, Consulting, and Technology.</h1>
     			</div>
 				</div>
 				
@@ -381,32 +353,35 @@
 	=============================================================================================================================>    
     <div class="container" >
     	<div class="row mt">
+    	  <div class="row">
     		<div class="col-lg-4 centered si">
-    			<h4>Python     			<img src="assets/img/technologies/python.png" width="100"></h4>
+    			<img src="assets/img/technologies/python.png" width="180">
     			<p>Built for all levels of expertise, whether you need simple pages or complex ones, creating something incredible with Marco is an effortless and intuitive process.</p>
     		</div>
     		<div class="col-lg-4 centered si">
-    			<h4>Django    			<img src="assets/img/technologies/django.png" width="60"></h4>
+    			<img src="assets/img/technologies/django.png" width="80">
     			<p>We’ve taken great care to ensure that Marco is fully retina-ready. So it’ll look good on any retina display. We use retina.js to ensure the best view.</p>
     		</div>
     		<div class="col-lg-4 centered si">
-    			<h4>Predix    			<img src="assets/img/technologies/predix.png" width="150"></h4>
+    			<img src="assets/img/technologies/predix.png" width="290">
     			<p>Marco fits any device handsomely. We tested our theme in major devices and browsers. Check it out and test it before buy it on responsinator.com.</p>
     		</div>    	
-
+    	  </div>
+    	  <div class="row">
     		<div class="col-lg-4 centered si">
-    			<h4>Spark    			<img src="assets/img/technologies/spark.png" width="150"></h4>
+    			<h4><img src="assets/img/technologies/spark.png" width="150"></h4>
     			<p>Good looking animations are an essential part of the new theme design trend. We add animations.css, a cool script to help you enhance your site with style.</p>
     		</div>
     		<div class="col-lg-4 centered si">
-    			<h4>ReactJS and D3.JS    			<img src="assets/img/technologies/react.png" width="150"></h4>
+    			<h4><img src="assets/img/technologies/react.png" width="150"></h4>
     			<p>Font Awesome is the most used icon font on Bootstrap. Gives you scalable vector icons that can instantly be customized with the power of CSS.</p>
     		</div>
     		<div class="col-lg-4 centered si">
     			<i class="fa fa-heart"></i>
     			<h4>Carefully Crafted</h4>
     			<p>We aim to design both, functional & beautiful themes. Details are an important part of our main concept. We work hard to keep our code and front-end flawless.</p>
-    		</div>    	
+    		</div>
+    	  </div>
     	</div><!-- /row -->
     </div><!-- /container -->
     
@@ -484,7 +459,7 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 48.8336471, lng: 2.37152},
-          zoom: 8
+          zoom: 12
         });
         var marker = new google.maps.Marker({
           position: {lat: 48.8336471, lng: 2.37152},
@@ -534,22 +509,7 @@
 				<div class="col-lg-3">
 					<h4>Recent Tweets</h4>
 					<div id="showtweets"></div>
-						<script>
-							twitterFetcher.fetch('258157205101088768', 'showtweets', 2, true, false, false, '', false, handleTweets, false);
-							
-							function handleTweets(tweets){
-							    var x = tweets.length;
-							    var n = 0;
-							    var element = document.getElementById('showtweets');
-							    var html = '<ul>';
-							    while(n < x) {
-							      html += '<li>' + tweets[n] + '</li>';
-							      n++;
-							    }
-							    html += '</ul>';
-							    element.innerHTML = html;
-							}					
-						</script>
+
 					<p>Follow us <b>@Alvrz_is</b></p>
 					<p><i class="fa fa-linkedin"></i>        <i class="fa fa-twitter"></i>        <i class="fa fa-dribbble"></i></p>
 				</div><!-- /col-lg-3 -->
