@@ -53,6 +53,11 @@ p.capitalize:first-letter {
 	color: #3F60E5;
 }
 
+#blue i {
+	color: #3F60E5;
+	font-size: 40px;
+}
+
 .progress-bar-theme {
   background-color: #3F60E5;
 }
