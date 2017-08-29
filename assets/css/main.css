@@ -83,7 +83,10 @@ a:after {
 }
 
 
-
+.navblack {
+	background-color: black;
+	height: 49px;
+}
 
 .navbar-fixed-top {
 border-width: 0 0 0px;
@@ -321,7 +324,7 @@ p.capitalize:first-letter {
 
 #headerwrap {
 	background: url(../img/bg01.jpg) no-repeat center top;
-	margin-top: 49px;
+	margin-top: 0px;
 	padding-top: 8em;
 	padding-bottom: 7em;
 	background-attachment: relative;
