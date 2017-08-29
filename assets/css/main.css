@@ -84,6 +84,7 @@ a:after {
 
 
 
+
 .navbar-fixed-top {
 border-width: 0 0 0px;
 border-bottom-width: 0px;
@@ -477,6 +478,11 @@ p.capitalize:first-letter {
 }
 
 
+#contcta02 {
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
 #cta02 {
 	background: url(../img/cta/cta02.jpg) no-repeat center top;
 	margin-top: 0px;
@@ -486,6 +492,7 @@ p.capitalize:first-letter {
 	background-position: center center;
 	min-height: 350px;
 	width: 100%;
+
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
