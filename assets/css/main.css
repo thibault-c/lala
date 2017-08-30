@@ -101,8 +101,13 @@ border-bottom-width: 0px;
 }
 /* margin top & Bottom */
 .mt {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.mtt {
+	margin-top: 40px;
+	margin-bottom: 95px;
 }
 
 /* Special Margin for Wrap sections */
@@ -351,6 +356,8 @@ p.capitalize:first-letter {
 	font-size: 100px;
 	font-weight: 900;
 	letter-spacing: 4px;
+	font-family: 'Audiowide', cursive;
+
 }
 
 #headerwrap h2 {
@@ -414,8 +421,11 @@ p.capitalize:first-letter {
 
 #black p {
 	color: white;
-	font-size: 25px;
+	font-size: 27px;
 	font-weight: 400;
+	font-family: 'Aldrich', sans-serif;
+	letter-spacing: 0px;
+	word-spacing: 5px;
 }
 
 #black i {
@@ -426,6 +436,7 @@ p.capitalize:first-letter {
 	color: white;
 	font-size: 70px;
 }
+
 
 /* Map Wrap*/
 
@@ -488,7 +499,7 @@ p.capitalize:first-letter {
 #cta02 {
 	background: url(../img/cta/cta02.jpg) no-repeat center top;
 	margin-top: 0px;
-	padding-top:100px;
+	padding:60px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -510,7 +521,7 @@ p.capitalize:first-letter {
 #cta02 h2 {
 	color: white;
 	font-weight: 700;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 }
 
 

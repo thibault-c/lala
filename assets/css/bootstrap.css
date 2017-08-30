@@ -4027,6 +4027,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-brand {
   color: orange;
+  font-family: 'Audiowide', cursive;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4367,7 +4368,6 @@ a.list-group-item.active > .badge,
 }
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
   color: inherit;
   background-color: rgba(0, 0, 0, 0.5);
 }
