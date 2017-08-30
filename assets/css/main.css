@@ -38,6 +38,7 @@ p {
     margin-bottom: 25px;
 }
 
+
 .centered {
     text-align: center;
 }
@@ -346,17 +347,15 @@ p.capitalize:first-letter {
 
 #headerwrap h1 {
 	margin: auto;
-	color: white;
-	font-size: 50px;
+	color: orange;
+	font-size: 100px;
 	font-weight: 900;
 	letter-spacing: 4px;
-	visibility: hidden;
 }
 
 #headerwrap h2 {
 	color: white;
-	visibility: hidden;
-
+	font-size: 35px;
 }
 
 #headerwrap .img-responsive {
@@ -400,7 +399,7 @@ p.capitalize:first-letter {
 #black {
 	margin-top: 0px;
 	background-color: #2f2f2f;
-	min-height: 300px;
+	min-height: 250px;
 	width: 100%;	
 }
 
@@ -415,7 +414,7 @@ p.capitalize:first-letter {
 
 #black p {
 	color: white;
-	font-size: 16px;
+	font-size: 25px;
 	font-weight: 400;
 }
 
