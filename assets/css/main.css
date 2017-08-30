@@ -501,7 +501,8 @@ p.capitalize:first-letter {
 #cta02 {
 	background: url(../img/cta/cta02.jpg) no-repeat center top;
 	margin-top: 0px;
-	padding:60px;
+	padding-top:100px;
+	padding-bottom: 100px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;

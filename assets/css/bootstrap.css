@@ -4382,6 +4382,7 @@ a.list-group-item.active > .badge,
   font-weight: 200;
 }
 .container-fluid .jumbotron {
+  padding: 10px;
   border-radius: 15px;
 }
 .jumbotron .container {
